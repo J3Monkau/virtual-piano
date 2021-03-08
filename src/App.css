@@ -4,4 +4,7 @@
 
 .app-content {
   min-height: calc(100vh - var(--footer-height));
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
