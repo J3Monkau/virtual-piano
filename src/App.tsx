@@ -1,13 +1,13 @@
 import React from "react";
 import "./App.css";
 import { Footer } from "./components/Footer/Footer";
-import { notes } from "./domain/note";
+import { Main } from "./components/Main/Mian";
 
-function App() {
+const App = () => {
   return (
     <div className="app">
       <main className="app-content">
-        <pre>{JSON.stringify(notes, null, 2)}</pre>
+        <Main />
       </main>
       <Footer></Footer>
     </div>
